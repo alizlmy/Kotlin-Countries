@@ -8,7 +8,7 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "com.atilsamancioglu.gradlework"
+        applicationId "com.atilsamancioglu.kotlincountries"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1
@@ -47,8 +47,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-
-
     implementation "android.arch.lifecycle:extensions:$lifeCycleExtensionVersion"
 
     implementation "androidx.room:room-runtime:$roomVersion"
@@ -75,6 +73,7 @@ dependencies {
     implementation "com.android.support:design:$supportVersion"
 
     implementation "androidx.preference:preference:$preferencesVersion"
+
 
 
 }
